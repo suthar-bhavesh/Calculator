@@ -1,6 +1,7 @@
 let Input = document.getElementById('calc-input');
 let buttons = document.querySelectorAll('.btn-calc');
 
+Input.focus();
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
